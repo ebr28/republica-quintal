@@ -17,8 +17,8 @@ export default function Hero() {
         src="/images/hero-main.jpg"
         alt="República Quintal"
         fill
-        className="object-cover"
-        style={{ objectPosition: "center 30%" }}
+        className="object-contain"
+        style={{ objectPosition: "center center" }}
         priority
       />
       {/* Dark overlay */}
