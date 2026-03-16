@@ -2,8 +2,9 @@
 
 import { useState, useEffect, useCallback } from "react";
 import { useTheme } from "next-themes";
-import { Menu, X, Sun, Moon, Home } from "lucide-react";
+import { Menu, X, Sun, Moon } from "lucide-react";
 import { motion, AnimatePresence } from "framer-motion";
+import Image from "next/image";
 import clsx from "clsx";
 
 const navLinks = [
@@ -74,9 +75,13 @@ export default function Navbar() {
               onClick={() => scrollToSection("#inicio")}
               className="flex items-center gap-3 group"
             >
-              <div className="w-9 h-9 rounded-lg flex items-center justify-center transition-opacity duration-200 group-hover:opacity-80" style={{ background: "#6C13AB" }}>
-                <Home className="w-4 h-4 text-white" />
-              </div>
+              <Image
+                src="/images/logo.png"
+                alt="República Quintal"
+                width={40}
+                height={40}
+                className="rounded-full transition-opacity duration-200 group-hover:opacity-80"
+              />
               <div className="hidden sm:block">
                 <span className="font-semibold text-base text-gray-900 dark:text-white">República Quintal</span>
                 <p className="text-xs text-gray-400 -mt-0.5">UNICAMP Limeira</p>

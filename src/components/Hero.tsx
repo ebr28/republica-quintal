@@ -2,6 +2,7 @@
 
 import { motion } from "framer-motion";
 import { ChevronDown, ArrowRight } from "lucide-react";
+import Image from "next/image";
 
 export default function Hero() {
   const scrollToSection = (id: string) => {
@@ -10,15 +11,17 @@ export default function Hero() {
   };
 
   return (
-    <section className="relative min-h-screen flex flex-col items-center justify-center bg-gray-950 overflow-hidden">
-      {/* Subtle background gradient */}
-      <div className="absolute inset-0 bg-gradient-to-br from-gray-950 via-gray-900 to-gray-950" />
-
-      {/* Single subtle purple glow — top left */}
-      <div
-        className="absolute -top-40 -left-40 w-[500px] h-[500px] rounded-full opacity-10 blur-3xl pointer-events-none"
-        style={{ background: "#6C13AB" }}
+    <section className="relative min-h-screen flex flex-col items-center justify-center overflow-hidden">
+      {/* Background photo */}
+      <Image
+        src="/images/foto2.jpg"
+        alt="República Quintal"
+        fill
+        className="object-cover object-center"
+        priority
       />
+      {/* Dark overlay */}
+      <div className="absolute inset-0 bg-black/70" />
 
       {/* Content */}
       <div className="relative z-10 text-center px-4 sm:px-6 lg:px-8 max-w-4xl mx-auto">
