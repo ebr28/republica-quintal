@@ -17,7 +17,7 @@ export default function Hero() {
         src="/images/hero-main.jpg"
         alt="República Quintal"
         fill
-        className="object-cover object-top"
+        className="object-cover object-center"
         priority
       />
       {/* Dark overlay */}
