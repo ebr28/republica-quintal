@@ -29,7 +29,7 @@ export default function Hero() {
           transition={{ duration: 0.5 }}
           className="text-sm font-medium tracking-widest uppercase text-gray-500 mb-8"
         >
-          UNICAMP Limeira · Desde 2010
+          UNICAMP Limeira · Desde 2014
         </motion.p>
 
         {/* Title */}
@@ -59,7 +59,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.35 }}
           className="text-gray-500 text-base max-w-xl mx-auto mb-12"
         >
-          14 anos formando profissionais e construindo amizades em Limeira.
+          11 anos formando profissionais e construindo amizades em Limeira.
         </motion.p>
 
         {/* CTA */}
@@ -95,7 +95,7 @@ export default function Hero() {
         >
           {[
             { value: "80+", label: "Ex-moradores" },
-            { value: "14", label: "Anos" },
+            { value: "11", label: "Anos" },
             { value: "8", label: "Países" },
           ].map((stat) => (
             <div key={stat.label} className="text-center">
