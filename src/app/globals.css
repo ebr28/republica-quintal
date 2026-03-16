@@ -57,19 +57,12 @@
   }
 
   .gradient-bg {
-    background: linear-gradient(135deg, #6C13AB 0%, #0DD621 100%);
-    background-size: 200% 200%;
-    animation: gradient-shift 8s ease infinite;
+    background: #6C13AB;
   }
 
   .glass-card {
     @apply backdrop-blur-md border;
-    background: rgba(255, 255, 255, 0.08);
-    border-color: rgba(255, 255, 255, 0.15);
-  }
-
-  .dark .glass-card {
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(255, 255, 255, 0.05);
     border-color: rgba(255, 255, 255, 0.1);
   }
 
@@ -82,44 +75,40 @@
   }
 
   .btn-primary {
-    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold text-white transition-all duration-300;
-    background: linear-gradient(135deg, #6C13AB 0%, #0DD621 100%);
-    background-size: 200% 200%;
-    animation: gradient-shift 4s ease infinite;
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold text-white transition-opacity duration-200;
+    background: #6C13AB;
   }
 
   .btn-primary:hover {
-    transform: translateY(-2px);
-    box-shadow: 0 8px 30px rgba(108, 19, 171, 0.5);
+    opacity: 0.9;
   }
 
   .btn-outline {
-    @apply inline-flex items-center gap-2 px-6 py-3 rounded-full font-semibold transition-all duration-300 border-2;
+    @apply inline-flex items-center gap-2 px-6 py-3 rounded-lg font-semibold transition-all duration-200 border;
     border-color: #6C13AB;
     color: #6C13AB;
   }
 
   .dark .btn-outline {
-    border-color: #0DD621;
-    color: #0DD621;
+    border-color: rgba(108,19,171,0.6);
+    color: #a855f7;
   }
 
   .btn-outline:hover {
     background: #6C13AB;
     color: white;
-    transform: translateY(-2px);
   }
 
   .section-title {
-    @apply text-3xl sm:text-4xl lg:text-5xl font-bold mb-4;
+    @apply text-3xl sm:text-4xl font-bold mb-4;
   }
 
   .section-subtitle {
-    @apply text-lg text-gray-600 dark:text-gray-400 mb-12 max-w-2xl mx-auto;
+    @apply text-base text-gray-500 dark:text-gray-400 mb-12 max-w-2xl mx-auto;
   }
 
   .card-hover {
-    @apply transition-all duration-300 hover:-translate-y-2 hover:shadow-xl;
+    @apply transition-all duration-200 hover:-translate-y-1 hover:shadow-lg;
   }
 }
 
@@ -152,7 +141,7 @@
 
 /* Custom scrollbar */
 ::-webkit-scrollbar {
-  width: 6px;
+  width: 4px;
 }
 
 ::-webkit-scrollbar-track {
@@ -160,12 +149,12 @@
 }
 
 ::-webkit-scrollbar-thumb {
-  background: #6C13AB;
-  border-radius: 3px;
+  background: rgba(108, 19, 171, 0.4);
+  border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: #0DD621;
+  background: rgba(108, 19, 171, 0.7);
 }
 
 /* Masonry grid for gallery */

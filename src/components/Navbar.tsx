@@ -74,12 +74,12 @@ export default function Navbar() {
               onClick={() => scrollToSection("#inicio")}
               className="flex items-center gap-3 group"
             >
-              <div className="w-10 h-10 rounded-full flex items-center justify-center gradient-bg group-hover:scale-110 transition-transform duration-300">
-                <Home className="w-5 h-5 text-white" />
+              <div className="w-9 h-9 rounded-lg flex items-center justify-center transition-opacity duration-200 group-hover:opacity-80" style={{ background: "#6C13AB" }}>
+                <Home className="w-4 h-4 text-white" />
               </div>
               <div className="hidden sm:block">
-                <span className="font-bold text-lg gradient-text">República Quintal</span>
-                <p className="text-xs text-gray-500 dark:text-gray-400 -mt-0.5">UNICAMP Limeira</p>
+                <span className="font-semibold text-base text-gray-900 dark:text-white">República Quintal</span>
+                <p className="text-xs text-gray-400 -mt-0.5">UNICAMP Limeira</p>
               </div>
             </button>
 
