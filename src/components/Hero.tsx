@@ -49,7 +49,7 @@ export default function Hero() {
           transition={{ duration: 0.6, delay: 0.35 }}
           className="text-gray-500 text-sm max-w-sm mb-10"
         >
-          11 anos formando profissionais e construindo amizades em Limeira.
+          11 anos de rolê, cumplicidade e amizades que não têm prazo de validade.
         </motion.p>
 
         <motion.div
