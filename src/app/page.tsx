@@ -57,7 +57,7 @@ export default function Home() {
           <div className="text-center mb-12">
             <h2 className="section-title gradient-text">Quintal pelo Mundo</h2>
             <p className="section-subtitle">
-              Ex-moradores espalhados pelo Brasil e pelo mundo. A família Quintal não tem fronteiras.
+              Quem passou pela Quintal levou um pedaço dela pra onde foi. E a rede só cresce.
             </p>
           </div>
           <MapaWrapper />

@@ -14,64 +14,64 @@ import {
 const benefits = [
   {
     icon: Network,
-    title: "Networking Profissional",
+    title: "Seu network mora com você",
     description:
-      "Construa conexões com futuros líderes de mercado. Nossos alumni estão no Itaú, McKinsey, Google, Nubank e muito mais. Uma conversa no jantar pode abrir portas para sua carreira.",
+      "A galera que você vai jantar hoje pode abrir uma porta amanhã. Aqui você não vai a um evento de networking — você vive com ele. São 80+ ex-moradores espalhados pelo mercado e prontos pra te ajudar.",
     color: "from-purple-600 to-purple-400",
     lightBg: "bg-purple-50 dark:bg-purple-900/20",
     iconColor: "text-purple-600 dark:text-purple-400",
-    stat: "80+ alumni",
-    statLabel: "networking ativo",
+    stat: "80+",
+    statLabel: "ex-moradores conectados",
   },
   {
     icon: Heart,
-    title: "Amizades para a Vida",
+    title: "Amizades de verdade",
     description:
-      "As amizades que você faz em uma república são diferentes. Compartilhar o dia a dia cria laços que nenhum ambiente de trabalho consegue reproduzir. São laços para toda a vida.",
+      "Não é aquela amizade de sala de aula. Quando você mora junto, divide as contas, os perrengues e as melhores noites da vida — os laços que ficam são pra sempre.",
     color: "from-pink-600 to-rose-400",
     lightBg: "bg-pink-50 dark:bg-pink-900/20",
     iconColor: "text-pink-600 dark:text-pink-400",
     stat: "97%",
-    statLabel: "mantêm amizades",
+    statLabel: "mantêm contato pós-faculdade",
   },
   {
     icon: PartyPopper,
-    title: "Vida Social Vibrante",
+    title: "Sempre tem algo rolando",
     description:
-      "Churrascos mensais, festas temáticas, viagens coletivas, noites de filme, torneios de FIFA e muito mais. A vida social na Quintal é incomparável – never a dull moment.",
+      "Churrasco, festa temática, viagem de fim de semana, noite de jogo, FIFA no sofá. A Quintal nunca para — e você vai lembrar de tudo isso daqui a 10 anos com um sorriso na cara.",
     color: "from-yellow-500 to-orange-400",
     lightBg: "bg-yellow-50 dark:bg-yellow-900/20",
     iconColor: "text-yellow-600 dark:text-yellow-400",
-    stat: "4+ eventos",
-    statLabel: "por mês",
+    stat: "4+",
+    statLabel: "eventos por mês",
   },
   {
     icon: DollarSign,
-    title: "Divisão de Custos",
+    title: "Seu bolso agradece",
     description:
-      "Moradia de qualidade por um custo muito mais acessível. Dividir aluguel, contas e mantimentos significa que você tem mais dinheiro para investir em experiências, cursos e lazer.",
+      "Dividir aluguel, luz, água e mercado com a galera faz uma diferença enorme. Você mora bem, gasta menos e ainda sobra pra curtir a vida universitária como ela merece.",
     color: "from-green-600 to-green-400",
     lightBg: "bg-green-50 dark:bg-green-900/20",
     iconColor: "text-green-600 dark:text-green-400",
-    stat: "40%",
-    statLabel: "de economia média",
+    stat: "~40%",
+    statLabel: "de economia na moradia",
   },
   {
     icon: TrendingUp,
-    title: "Crescimento Pessoal",
+    title: "Você cresce sem perceber",
     description:
-      "Viver com pessoas de cursos e origens diferentes expande sua visão de mundo. Aprenda a negociar, colaborar, liderar e resolver conflitos – habilidades que o mercado valoriza.",
+      "Conviver com pessoas de cursos e origens diferentes te abre a cabeça de um jeito que nenhuma aula consegue. Você aprende a se virar, a ceder, a liderar — e sai daqui uma versão melhor.",
     color: "from-blue-600 to-cyan-400",
     lightBg: "bg-blue-50 dark:bg-blue-900/20",
     iconColor: "text-blue-600 dark:text-blue-400",
-    stat: "3 cursos",
-    statLabel: "diferentes convivendo",
+    stat: "3+",
+    statLabel: "cursos diferentes na casa",
   },
   {
     icon: MapPin,
-    title: "Localização Privilegiada",
+    title: "Pertinho de tudo",
     description:
-      "A Quintal fica a poucos minutos da UNICAMP Limeira e do centro da cidade. Acesso fácil à FCA, restaurantes, farmácias e todo o necessário para sua rotina universitária.",
+      "A Quintal fica a poucos minutos da UNICAMP Limeira. Chega fácil na FCA, no bandejão, nos bares da cidade. Menos tempo no trânsito, mais tempo curtindo.",
     color: "from-teal-600 to-teal-400",
     lightBg: "bg-teal-50 dark:bg-teal-900/20",
     iconColor: "text-teal-600 dark:text-teal-400",
@@ -150,8 +150,8 @@ export default function Beneficios() {
       >
         <h2 className="section-title gradient-text">Por que morar na Quintal?</h2>
         <p className="section-subtitle">
-          Mais do que um lugar para dormir – é um ambiente que acelera seu desenvolvimento
-          profissional, pessoal e social durante a faculdade.
+          Mais do que dividir aluguel — é acordar todo dia cercado de gente boa,
+          crescer junto e sair daqui com amigos de verdade e conexões que valem ouro.
         </p>
       </motion.div>
 
@@ -172,13 +172,13 @@ export default function Beneficios() {
       >
         <div className="inline-block p-8 rounded-3xl bg-gradient-to-br from-purple-50 to-green-50 dark:from-purple-900/20 dark:to-green-900/20 border border-purple-200 dark:border-purple-800">
           <p className="text-2xl font-bold text-gray-900 dark:text-white mb-2">
-            Pronto para fazer parte da família?
+            Faz parte do seu time?
           </p>
           <p className="text-gray-600 dark:text-gray-400 mb-6">
-            Vagas limitadas para o próximo semestre. Inscreva-se agora!
+            As vagas são poucas e a galera é selecionada. Manda sua candidatura e a gente bate um papo.
           </p>
           <a href="#formulario" className="btn-primary text-base px-8 py-4">
-            Quero morar na Quintal! 🏡
+            Quero fazer parte
           </a>
         </div>
       </motion.div>
